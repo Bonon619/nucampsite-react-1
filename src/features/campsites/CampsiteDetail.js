@@ -1,6 +1,7 @@
 import { Card, CardImg, CardText, CardBody, Col } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const CampsiteDetail = ({ campsite }) => {
+const CampsiteDetailPage = ({ campsite }) => {
   const { image, name, description } = campsite;
   return (
     <Col md="12" className="m-4">
@@ -14,4 +15,4 @@ const CampsiteDetail = ({ campsite }) => {
   );
 };
 
-export default CampsiteDetail;
+export default CampsiteDetailPage;

@@ -1,6 +1,6 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Col, Row } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="site-footer">
@@ -51,7 +51,6 @@ const Footer = () => {
             </a>
           </Col>
           <Col sm="4" className="text-center">
-            {" "}
             <a role="button" className="btn btn-link" href="tel:+12065551234">
               <i className="fa fa-phone" /> 1-206-555-1234
             </a>
